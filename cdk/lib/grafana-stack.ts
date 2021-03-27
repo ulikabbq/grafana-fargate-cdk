@@ -128,7 +128,7 @@ export class GrafanaStack extends cdk.Stack {
       stringValue: 'grafana',
     });
     
-    new ssm.StringParameter(this, 'default', {
+    new ssm.StringParameter(this, 'GF_LOG_LEVEL', {
       parameterName: '/grafana/GF_LOG_LEVEL',
       stringValue: 'INFO'
     })

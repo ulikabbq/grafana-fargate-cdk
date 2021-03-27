@@ -14,8 +14,8 @@ Prerequisites:
 
 To get started:
 * git clone repo
-* npm install 
 * cd cdk 
+* npm install 
 * cdk deploy 
  
 wait a few minutes.....
